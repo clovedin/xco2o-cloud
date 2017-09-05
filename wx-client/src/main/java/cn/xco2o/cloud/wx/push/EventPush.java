@@ -1,8 +1,8 @@
 package cn.xco2o.cloud.wx.push;
 
-import cn.xco2o.cloud.wx.push.event.ScanCodeInfoEvent;
 import cn.xco2o.cloud.wx.push.event.SendLocationInfoEvent;
 import cn.xco2o.cloud.wx.push.event.SendPicsInfoEvent;
+import cn.xco2o.cloud.wx.push.event.ScanCodeInfoEvent;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 

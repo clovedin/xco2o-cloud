@@ -1,7 +1,8 @@
-package cn.xco2o.cloud.wx.service;
+package cn.xco2o.cloud.cloud.wx.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
@@ -9,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  *
  */
 @SpringBootApplication
-@EnableWebMvc
+@EnableDiscoveryClient
 public class WxApp 
 {
     public static void main( String[] args )
