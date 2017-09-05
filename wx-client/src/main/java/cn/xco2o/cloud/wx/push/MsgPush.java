@@ -1,7 +1,7 @@
 package cn.xco2o.cloud.wx.push;
 
-import cn.xco2o.cloud.wx.push.msg.ArticlesMsg;
 import cn.xco2o.cloud.wx.push.msg.ImageMsg;
+import cn.xco2o.cloud.wx.push.msg.ArticlesMsg;
 import cn.xco2o.cloud.wx.push.msg.MusicMsg;
 import cn.xco2o.cloud.wx.push.msg.VideoMsg;
 import cn.xco2o.cloud.wx.push.msg.VoiceMsg;
